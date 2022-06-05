@@ -1,0 +1,61 @@
+/*default styling*/
+html{/*jitna wriiten part hogasab same font mei*/
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*descendant selector  or combinators   */
+header h1{/*header ke andar jo hai sirf uska weight*/
+    font-weight: 400;
+}
+header{
+    display:flex;/*sab horizontally ek line mei*/
+    justify-content:space-between;/*dev101 aur html,css,javascript ke bich mei space*/
+    margin: 0 3rem;/*top-bottom  left-right*/   
+}
+ul{
+    display: flex;/*html css javascript ko horizontally kar dega*/
+    justify-content: space-between;
+}
+nav{
+    position: relative;
+    top: 1rem;/*rem size one letter size */
+    right: 3rem;
+    width: 20rem;/*space dega html css javascript ke biche mei nav bar ki width dedi ab utna hi lega */
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+/*class selector*/
+.showcase_img{
+    width: 95vw;/*veiw port browser size jitna better use vm to make responsive*/
+    margin: 1rem;
+}
+article{
+    display: flex;
+    margin: 1.5rem;
+}
+.container{
+    text-align: center;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    display: flex;/*display do horizontally*/
+    justify-content: center;/*justify content do horizontally*/
+    align-items: center;/*align items do vertically*/
+    font-size: 1.5rem;
+}
+    /*to remove underline of html css...*/
+    a{
+        text-decoration: none;
+        color: black;/*color black hoga*/
+    }
+    /*pseudo clas*/
+    a:hover{
+        color:greenyellow;/*after hover showing greenyellow*/
+    }
